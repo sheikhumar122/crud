@@ -1,4 +1,4 @@
 //QY80MPgwXaknDfCM
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://sumar:QY80MPgwXaknDfCM@cluster0.qo5eypo.mongodb.net/sumar?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://localhost:3009")
 .then(()=> console.log("database connected"));
